@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+#contenedor_chat {
+    position: relative;
+    width: 100%;
+	
+}
+#barra_azul{
+	width:100%; 
+	background-color:#09F; 
+	height:50px;
+}
+#status{
+	left: 10px;
+    position: relative;
+    top: 13px;
+}
+#conversacion_n{
+	height: 147px;
+	overflow: auto;
+    overflow-x:hidden;
+    width: 153px;
+	}
+#alerta_nuevo{
+	background-color:#F00;
+	cursor:pointer;
+	}
+#td_alert{
+	padding-left:10px;}
+	
+.chat_box_n{
+	background-color: #D2D3EA;
+    border: medium solid;
+    display: none;
+    height: 324px;
+    left: 194px;
+    margin-top: -20px;
+    padding-left: 10px;
+    position: absolute;
+    width: 214px;
+	z-index:1000 !important;
+	}
+	.minimizar_conversacion{
+		
+		cursor: pointer;
+    margin-left: 54px;
+    position: relative;
+    width: 75px;
+		}
+		.terminar_converzacion{
+			cursor: pointer;
+    left: 146px;
+    position: absolute;
+    top: 1px;
+			}
+			
+			.contenedor_chat{
+				background-color: #FFFFFF;
+    height: 268px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 199px;
+	}
+.nombre_chat{
+	font-size:15px !important;
+	color:#06F !important;
+	}
+.mensaje_chat{
+	font-size:13px !important;
+	color:#000 !important;
+	
+	}
+	.alert_nuevo{
+		
+		width:130px; cursor:pointer; background-color:#F00;
+	}
+	.alert_tomado{
+		background-color:#D9EAFF;
+		
+	}
+	.alert_activo{
+		
+		background-color:#00FF00;
+	}
+	.icono_chat{
+		    background-image: url("../images/msg.gif");
+    background-position: 108px center;
+    background-repeat: no-repeat;
+    background-size: contain;
+		}

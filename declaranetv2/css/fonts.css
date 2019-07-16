@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Conv_Intro Regular';
+	src: url('fonts/Intro Regular.eot');
+	src: local('☺'), url('fonts/Intro Regular.woff') format('woff'), url('fonts/Intro Regular.ttf') format('truetype'), url('fonts/Intro Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

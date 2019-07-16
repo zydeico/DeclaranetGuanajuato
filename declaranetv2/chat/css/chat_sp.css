@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu-extras{
+	height: 59px;
+	}
+	#contenedor_chat{
+		position:relative; 
+		width:100%; 
+		}
+		#img_connect{
+			cursor:pointer;
+			}
+			#to_apend{
+				border: thin solid #000000;
+				height: 213px;
+				width: 217px;
+				overflow-x:hidden;
+				overflow:auto;
+				border-radius: 15px;
+				padding-left: 8px;
+				padding-right: 8px;
+				padding-top: 10px;
+				margin-bottom:4px;
+				font-size:12px;
+				font-style:normal;
+			}
+				#to_read{
+					width:153px;
+					}
+					#sub_button{
+						width:69px;
+						}
+						/*hide dialog box**/
+						
+						#dialog_box{
+							display:none;
+							}
+                                                            .nickname {color: blue; }
+															
+.nombre_chat{
+	font-size:15px !important;
+	color:#06F !important;
+	}
+.mensaje_chat{
+	font-size:13px !important;
+	color:#000 !important;
+	
+	}
+					
